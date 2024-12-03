@@ -23,7 +23,8 @@ class Jurnal extends Model
         'description',
         'thn_terbit',
         'jml_halaman',
-        'status'
+        'status',
+        'id_pengguna',
     ];
 
     public function bookLoans()

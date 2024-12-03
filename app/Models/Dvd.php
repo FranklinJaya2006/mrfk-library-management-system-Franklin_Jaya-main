@@ -23,7 +23,8 @@ class Dvd extends Model
         'artist',
         'genre',
         'thn_terbit',
-        'status'
+        'status',
+        'id_pengguna'
     ];
 
     public function bookLoans()

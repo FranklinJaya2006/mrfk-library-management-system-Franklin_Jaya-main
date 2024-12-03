@@ -24,7 +24,8 @@ class Newspaper extends Model
         'publisher',
         'category',
         'thn_terbit',
-        'status'
+        'status',
+        'id_pengguna'
     ];
 
     public function bookLoans()
